@@ -18,3 +18,7 @@ A simple weblog application built with Node.js using MVC architecture.
 1. Install dependencies:
    ```bash
    npm install
+
+## Live Demo
+https://simple-weblog-mvc-production.up.railway.app
+
