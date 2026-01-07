@@ -1,4 +1,129 @@
+/* =========================
+   Simple Weblog - Black & White Theme
+   Author: Aryan
+   ========================= */
+
 body {
-    background: #f6f9ff;
-  }
-  
+  background: #0f0f0f;
+  color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background: #000 !important;
+  border-bottom: 1px solid #222;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card {
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+}
+
+.card h5,
+.card h4 {
+  color: #fff;
+}
+
+hr {
+  border-color: #222;
+}
+
+/* Inputs */
+input,
+textarea {
+  background: #0f0f0f !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+  border-radius: 8px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  opacity: 1 !important;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #fff !important;
+  box-shadow: none !important;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px !important;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #fff !important;
+  color: #000 !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background: #e5e5e5 !important;
+}
+
+.btn-warning {
+  background: #333 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn-warning:hover {
+  background: #444 !important;
+}
+
+.btn-danger {
+  background: #000 !important;
+  color: #fff !important;
+  border: 1px solid #444 !important;
+}
+
+.btn-danger:hover {
+  background: #1a1a1a !important;
+}
+
+/* Badge */
+.badge {
+  background: #fff !important;
+  color: #000 !important;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Post Content Formatting */
+.post-content {
+  white-space: pre-line;
+  color: #ddd;
+}
+
+/* Small text */
+small {
+  color: #aaa !important;
+}
+
+.text-muted {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-size: 16px;
+}

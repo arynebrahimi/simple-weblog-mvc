@@ -3,8 +3,10 @@ const Post = require("../models/postModel");
 module.exports = {
   home(req, res) {
     const posts = Post.getAllPosts();
-    res.render("index", { posts });
+    const totalPosts = posts.length;
+    res.render("index", { posts, totalPosts });
   },
+  
 
   create(req, res) {
     const { title, content } = req.body;
